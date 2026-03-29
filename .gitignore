@@ -1,14 +1,22 @@
-[Ll]ibrary/
-[Tt]emp/
-[Oo]bj/
-[Bb]uild/
-[Bb]uilds/
-[Ll]ogs/
-[Uu]serSettings/
-[Mm]emoryCaptures/
-[Rr]ecordings/
+# Unity-generated folders
+.utmp/
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
 
-# Auto-generated IDE and solution files
+# IDE and generated project files
+.vs/
+.vscode/
+.idea/
+.gradle/
+.consulo/
+ExportedObj/
 *.csproj
 *.unityproj
 *.sln
@@ -24,14 +32,50 @@
 *.mdb
 *.opendb
 *.VC.db
+*.DotSettings.user
 
 # Unity generated metadata for imported IDE files
-.vs/
-.vscode/
-.idea/
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
 
-# Crash reports
+# Logs and crash reports
+*.log
 sysinfo.txt
+mono_crash.*
+crashlytics-build.properties
+
+# Build outputs
+*.apk
+*.aab
+*.app
+*.unitypackage
+*.unitypackage.meta
+
+# Blender temp imports
+*.blend1
+*.blend1.meta
+
+# Addressables and test artifacts
+/ServerData
+/[Aa]ssets/StreamingAssets/aa*
+/[Aa]ssets/AddressableAssetsData/link.xml*
+/[Aa]ssets/Addressables_Temp*
+/[Aa]ssets/AddressableAssetsData/*/*.bin*
+/[Aa]ssets/[Ii]nit[Tt]est[Ss]cene*.unity*
+InitTestScene*.unity*
+
+# Visual Scripting generated files
+/[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Flow/UnitOptions.db
+/[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Flow/UnitOptions.db.meta
+/[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Core/Property Providers
+/[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Core/Property Providers.meta
+
+# Optional Asset Store tools
+# /[Aa]ssets/AssetStoreTools*
+
+# JetBrains Rider plugin
+/[Aa]ssets/Plugins/Editor/JetBrains*
 
 # OS files
 .DS_Store
